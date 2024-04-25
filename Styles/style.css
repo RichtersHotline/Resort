@@ -1,0 +1,96 @@
+* {
+    padding:0;
+    margin:0;
+}
+.container  {
+    margin:auto;
+    padding:0;
+    height:auto;
+    flex-wrap:wrap;
+    width:990px;
+}
+
+
+
+
+.top {
+
+background-color:orange;
+width:990px;
+height:100px;
+display:flex;
+justify-content:space-between;
+font-family:arial;
+}
+.Mid {
+
+    background-color:darkorange;
+    width:990px;
+    height:40px;
+
+}
+.Banner {
+
+background-color:rgb(210, 137, 0);
+width:990px;
+height:300px;
+
+}
+.MainContent {
+   display:flex;
+    flex-direction:row;
+    margin:auto;
+    justify-content:space-between;
+    gap:25px;
+    margin-top:10px;
+}
+.Bl1 {
+    background-color:orange;
+    width:250px;
+    height:150px;
+}
+.Bl2 {
+    background-color:orange;
+    width:250px;
+    height:150px;
+}
+.Bl3 {
+    background-color:orange;
+    width:250px;
+    height:150px;
+}
+.SecondContent {
+
+    display:flex;
+   flex-direction:row;
+   gap:2px;
+}
+.Block {
+   margin-top:2px;
+    background-color:coral;
+    width:250px;
+    height:400px;
+}
+.Block2 {
+    margin-top:2px;
+     background-color:coral;
+     width:220px;
+     height:400px;
+ }
+
+.TextContent {
+margin-top:4px;
+color:darkred;
+max-width:250px;
+font-family:arial;
+
+background-color:lightsalmon;
+padding:7px;
+text-align:left;
+}
+.Cut {
+    background-color:sienna;
+    width:990px;
+    height:70px;
+    margin-top:4px;
+}
