@@ -6,20 +6,49 @@
     margin:auto;
     padding:0;
     height:auto;
-    flex-wrap:wrap;
+    
     width:990px;
 }
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkorange;  
+    display:flex;
+    justify-content:center;
+}
+  
+  li {
+text-align:center;
 
+  }
+  
+  li a {
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+
+    text-align: center;
+   padding:10px;
+    text-decoration: none;
+  }
+  img {
+    width:100%;
+    
+  }
+  
+  li a:hover {
+    background-color:orange;
+  }
 
 .top {
 
 background-color:orange;
 width:990px;
 height:100px;
-display:flex;
-justify-content:space-between;
 font-family:arial;
 }
 .Mid {
@@ -29,12 +58,20 @@ font-family:arial;
     height:40px;
 
 }
-.Banner {
+:root {
+    --primary:black;
+    --secondary: rgb(115, 255, 0);
+    --alternatives:orange;
+    --awesome:yellow;
+    --borderColor:rgb(0, 17, 94);
+}
 
-background-color:rgb(210, 137, 0);
-width:990px;
-height:300px;
 
+.Banner  {
+
+background-color:var(--primary);
+
+height:500px;
 }
 .MainContent {
    display:flex;
